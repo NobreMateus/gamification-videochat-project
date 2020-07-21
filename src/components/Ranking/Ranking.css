@@ -1,0 +1,57 @@
+.Ranking{
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    /* align-items: flex-start; */
+    width: 100%;
+    background-color: #E4E4E4;
+    flex-direction: column;
+}
+
+.raking-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #EFEFEF;
+    height: 60px;
+    align-items: center;
+    background-color: white;
+}
+
+.raking-item:first-child{
+    background-color: #FFF27E;
+}
+/* 
+.Ranking:first-child{
+    background-color: yellow !important;
+} */
+
+.pos-number{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #AAAAAA;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.name{
+    flex-grow: 1;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.points{
+    width: 96px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align:end;
+    margin-right: 12px;
+    
+}

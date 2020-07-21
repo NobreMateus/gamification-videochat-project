@@ -1,0 +1,54 @@
+.FillName{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-textfield{
+    width: 80%;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.name-textfield:focus{
+    border: 2px solid #FFE81C;
+    outline: none;
+    height: 44px;
+}
+
+.save-button{
+    height: 60px;
+    background-color: #FFEE59;
+    text-align: center;
+    margin-top: 36px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    color: #6977F4;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.save-button:hover{
+    background-color: #FFE500;
+}
+
+.label-field{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.save-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
