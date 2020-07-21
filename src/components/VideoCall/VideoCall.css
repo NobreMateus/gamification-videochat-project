@@ -3,3 +3,10 @@
     width: 100%;
     border-radius: 8px;
 }
+
+.Video-Frame{
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    height: 96vh;
+}

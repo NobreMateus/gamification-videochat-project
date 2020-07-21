@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import DailyIframe from '@daily-co/daily-js';
-//let callFrame = DailyIframe.wrap(MY_IFRAME);
+
 import Chat from './components/Chat/Chat'
 import Ranking from './components/Ranking/Ranking'
 import VideoCall from './components/VideoCall/VideoCall'
@@ -13,21 +12,6 @@ const firebaseConfig = Data
 
 class App extends React.Component {
 
-
-  // const frame = DailyIframe.createFrame({
-  //   iframeStyle:{
-  //     position: 'fixed',
-  //     border: '1px solid red',
-  //     width: '375px',
-  //     height: '450px',
-  //     right: '1em',
-  //     bottom: '1em'
-  //   },
-  //   showLeaveButton: true,
-  //   showFullscreenButton: true
-  // })
-
-  // frame.join({url: 'https://mateusnobre.daily.co/Testando'})
   constructor(props) {
     super(props)
     this.state = {
@@ -43,7 +27,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {/* <frame></frame> */}
         <div className="videocall-container">
           <div className="videocall">
             <VideoCall></VideoCall>
